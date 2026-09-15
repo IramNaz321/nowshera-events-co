@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Outfit', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #FAF9FF;
+    color: #1F2937;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Custom smooth transitions & glass accents */
+.bg-lavender-subtle {
+  background-color: #F5F3FF;
+}
+
+.text-lavender-deep {
+  color: #6D28D9;
+}
+
+.border-lavender-soft {
+  border-color: #EDE9FE;
+}
+
+/* Custom badge & button states */
+.shadow-lavender-sm {
+  box-shadow: 0 2px 8px -1px rgba(167, 139, 250, 0.15), 0 1px 3px -1px rgba(109, 40, 217, 0.08);
+}
+
+.shadow-lavender-md {
+  box-shadow: 0 10px 25px -3px rgba(167, 139, 250, 0.2), 0 4px 6px -2px rgba(109, 40, 217, 0.05);
+}
+
+.shadow-lavender-lg {
+  box-shadow: 0 20px 35px -4px rgba(167, 139, 250, 0.25), 0 8px 10px -4px rgba(109, 40, 217, 0.08);
+}
